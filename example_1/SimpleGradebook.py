@@ -14,3 +14,4 @@ class SimpleGradebook(object):
         return sum(grades) / len(grades)
 
 book = SimpleGradebook()
+book.add_student('Isaac Newton')
