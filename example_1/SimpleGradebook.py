@@ -12,3 +12,5 @@ class SimpleGradebook(object):
     def average_grade(self,name):
         grades = self._grades[name]
         return sum(grades) / len(grades)
+
+book = SimpleGradebook()
